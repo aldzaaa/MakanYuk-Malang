@@ -1,0 +1,5 @@
+# Preserve binary assets byte-for-byte on Windows and other platforms.
+*.pdf binary
+*.ttf binary
+*.png binary
+*.ico binary
