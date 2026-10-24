@@ -1,4 +1,4 @@
-﻿# Validasi MakanYuk Malang
+# Validasi MakanYuk Malang
 
 Tanggal: 24 Oktober 2026 (Asia/Jakarta).
 Mahasiswa: Aldza Salwatul Aisy / 240605110227.
@@ -49,6 +49,20 @@ APK dan screenshot tersebut belum dibangun/diambil ulang pada perubahan ini.
 - Screenshot laporan perlu diperbarui untuk katalog terbaru.
 - Kelas, fakultas, kampus dan logo resmi masih perlu dilengkapi pada Markdown
   laporan lalu PDF dibuat ulang; PDF terbaru tidak memiliki field formulir interaktif.
-- Source belum diunggah ke GitHub dan PDF belum diunggah ke Google Drive.
+- Source sudah diunggah ke https://github.com/aldzaaa/MakanYuk-Malang
+  pada branch main. PDF belum diunggah ke Google Drive.
 - Flutter doctor mendeteksi sebagian lisensi Android belum diterima;
   toolchain Visual Studio untuk Windows terdeteksi siap.
+
+## Pemeriksaan publikasi GitHub
+
+- README diperjelas: clone, Windows/Android, alur penggunaan, data dan API,
+  dokumentasi, screenshot tahap awal serta batas pemeriksaan.
+- Tautan file lokal dan pasangan blok kode README diperiksa, valid.
+- Build/cache/konfigurasi mesin dan secret dikecualikan dari commit.
+- .gitattributes menetapkan PDF/font/gambar sebagai binary. PDF pada commit
+  diverifikasi identik byte-per-byte dengan file asli.
+- Push branch main berhasil; origin/main menjadi upstream.
+- Tes Flutter tidak diulang pada pembaruan dokumentasi/publikasi ini;
+  hasil 20 tes di atas berasal dari pemeriksaan implementasi sebelumnya.
+- PDF laporan masih mencatat status sebelum publikasi GitHub.
